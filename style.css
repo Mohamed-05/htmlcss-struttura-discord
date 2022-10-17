@@ -12,21 +12,50 @@ body{
     display: flex;
 }
 
-.containermenu{
+.container-menu{
     height: 100px;
 }
 
 div.menu{
     background-color: aqua;
+    height: 70%;
     flex-basis: 100%;
 }
 
 div.main{
-    height: 55%;
+    height: 40%;
     width: 80%;
     background-color: orange;
     margin: 1rem;
     margin-left: 5rem;
     text-align: center;
+}
 
+.colore-blu{
+    height: 250px;
+    background-color: darkblue;
+}
+
+div.box-rossa{
+    height: 80%;
+    width: 30%;
+    background-color: hotpink;
+    margin: 1.5rem;
+    margin-left: 25rem;
+}
+
+.content{
+    height: 400px;
+    margin-left: 3rem;
+    margin-right: 10rem;
+}
+
+div.paperella{
+    background-color: cornflowerblue;
+    flex-basis: 70%;
+}
+
+div.scritte{
+    background-color: lightcoral;
+    width: 30%;
 }
